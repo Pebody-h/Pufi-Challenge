@@ -1,6 +1,6 @@
 ### General Info
 ***
-🚀 Deploy: [Countries](https://proyecto-individual-one.vercel.app)
+🚀 Deploy: [Pufi](https://pufi-challenge-murex.vercel.app/)
 
 Pequeño challenge para puesto frontend desarrollado con exito
 

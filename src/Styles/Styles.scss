@@ -1,0 +1,20 @@
+//set values
+body {
+    margin: 0;
+    padding: 0;
+}
+
+//Ui Settings
+@import './Base/settings';
+
+//Components
+@import './Components/NavBar';
+@import './Components/Carrucel';
+@import './Components/Products';
+@import './Components/Product';
+@import './Components/Galery';
+@import './Components/Form';
+@import './Components/Newsletter';
+@import './Components/Footer';
+@import './Components/Component404_error';
+@import './Components/Shop';

@@ -1,0 +1,22 @@
+.form_Container {
+    width: 40.5%;
+    border: 2px solid $text_secondary_color;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+
+
+    .form_email {
+        margin: 1em;
+        border: 0;
+        font-family: $font_Primary;
+        font-weight: 300;
+        font-size: $font_size_primary;
+    }
+
+    .form_buton {
+        margin: 1em;
+        border: 0;
+        background-color: transparent;
+    }
+}

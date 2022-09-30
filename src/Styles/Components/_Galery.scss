@@ -1,0 +1,84 @@
+.galery_container {
+    display: grid;
+    width: 100vw;
+
+    .galery_info {
+        text-align: center;
+        margin-top: 4em;
+
+        h3 {
+            color: rgba(0, 0, 0, 0.356);
+            font-size: $font_size_primary;
+            font-family: $font_Primary;
+        }
+
+        h2 {
+            color: $font_secondary;
+            font-size: $font_size_variant;
+            font-family: $font_Primary;
+            font-weight: lighter;
+            margin: 0;
+        }
+    }
+
+    .galery_contents {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        .galery_content {
+            margin-top: 4em;
+            width: 40%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            .galery_img1 {
+                background-image: url('../../Assets/Galeria-1.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .galery_img2 {
+                background-image: url('../../Assets/Galeria-2.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .galery_img3 {
+                background-image: url('../../Assets/Galeria-3.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .galery_img4 {
+                background-image: url('../../Assets/Galeria-4.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .galery_img5 {
+                background-image: url('../../Assets/Galeria-5.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+
+            .galery_img6 {
+                background-image: url('../../Assets/Galeria-6.jpg');
+                height: 15em;
+                margin: 2px;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}

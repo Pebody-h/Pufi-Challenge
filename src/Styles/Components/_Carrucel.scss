@@ -1,0 +1,66 @@
+.carrusel_baner {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    .carrusel_slides {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
+        h2 {
+            margin-top: 11rem;
+            color: $text_primary_color;
+            font-family: $font_Primary;
+            font-size: $font_size_variant;
+            font-weight: 100;
+        }
+
+        .carrusel_buton {
+            justify-content: center;
+            width: 5rem;
+            height: 2.5rem;
+            background-color: transparent;
+            border: 2px solid $text_primary_color;
+
+            &:hover {
+                width: 6rem;
+                height: 4rem;
+                font-size: 15px;
+            }
+
+            .carrusel_link {
+                text-decoration: none;
+                color: $text_primary_color;
+                font-family: $font_secondary;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .carrusel_slide1 {
+        width: 100%;
+        height: 50em;
+        background-image: url('../../Assets/Presentación-1.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .carrusel_slide2 {
+        width: 100%;
+        height: 50em;
+        background-image: url('../../Assets/Presentación-2.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .carrusel_slide3 {
+        width: 100%;
+        height: 50em;
+        background-image: url('../../Assets/Presentación-3.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}

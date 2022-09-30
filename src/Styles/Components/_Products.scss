@@ -1,0 +1,111 @@
+.products_containers {
+    display: grid;
+    width: 100%;
+
+    .products_container {
+        display: flex;
+
+        .products_description {
+            width: 50%;
+        }
+
+        .products_img1 {
+            position: relative;
+            width: 50%;
+            height: 40em;
+            background-image: url('../../Assets/Puff\ inflable.jpg');
+            background-size: cover;
+            background-position: center;
+
+            .products_triangulo {
+                position: absolute;
+                top: 40%;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-left: 50px solid white;
+                border-top: 25px solid transparent;
+                border-bottom: 25px solid transparent;
+            }
+        }
+
+        .products_img2 {
+            position: relative;
+            width: 50%;
+            height: 40em;
+            background-image: url('../../Assets/Umbrellas.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button {
+                width: 5rem;
+                height: 2.5rem;
+                background-color: transparent;
+                border: 2px solid $text_primary_color;
+                color: $text_primary_color;
+                font-family: $font_secondary;
+                font-size: 13px;
+
+                &:hover {
+                    width: 6rem;
+                    height: 4rem;
+                    font-size: 15px;
+                }
+            }
+
+            .products_triangulo {
+                position: absolute;
+                top: 40%;
+                right: 0;
+                width: 0;
+                height: 0;
+                border-right: 50px solid white;
+                border-top: 25px solid transparent;
+                border-bottom: 25px solid transparent;
+            }
+        }
+
+        .products_img3 {
+            position: relative;
+            width: 50%;
+            height: 40em;
+            background-image: url('../../Assets/Bolsas.jpg');
+            background-size: cover;
+            background-position: center;
+
+            .products_triangulo {
+                position: absolute;
+                top: 40%;
+                right: 0;
+                width: 0;
+                height: 0;
+                border-right: 50px solid white;
+                border-top: 25px solid transparent;
+                border-bottom: 25px solid transparent;
+            }
+        }
+
+        .products_img4 {
+            position: relative;
+            width: 50%;
+            height: 40em;
+            background-image: url('../../Assets/Snaps.jpg');
+            background-size: cover;
+            background-position: center;
+
+            .products_triangulo {
+                position: absolute;
+                top: 40%;
+                left: 0;
+                width: 0;
+                height: 0;
+                border-left: 50px solid white;
+                border-top: 25px solid transparent;
+                border-bottom: 25px solid transparent;
+            }
+        }
+    }
+}
